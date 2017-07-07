@@ -1,4 +1,4 @@
-title: Urban Template
+title: Josmosaics
 url: "https://teal-worm.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -6,19 +6,19 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Jo De Freitas bespoke mosaic artist cape town
 
 # Author details for the jekyll-seo-tag gem
-author:
-  name:
-  email:
+author: Nomad Webworks
+  name: Timothy Mostert
+  email: resident@hotmail.co.za
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Josmosaics
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://www.facebook.com/pg/JosMosaic/photos/?ref=page_internal
 
 collections:
   staff_members:

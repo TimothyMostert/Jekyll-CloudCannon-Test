@@ -3,11 +3,11 @@ footer {
 	padding: 100px 0 50px 0;
 	position: relative;
 	background: $navigation-color;
-	color: #fff;
+	color: black;
 
 	&,
 	a {
-		color: #999;
+		color: black;
 	}
 
 	h2 {
@@ -26,7 +26,7 @@ footer {
 		text-decoration: none;
 
 		&:hover {
-			color: #fff;
+			color:white;
 		}
 	}
 
@@ -53,7 +53,7 @@ footer {
 
 		a {
 			svg {
-				fill: #999;
+				fill: navy;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;
@@ -67,7 +67,7 @@ footer {
 				text-decoration: none;
 
 				svg {
-					fill: #fff;
+					fill: orange;
 				}
 			}
 		}
