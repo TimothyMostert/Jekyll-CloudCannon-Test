@@ -9,9 +9,9 @@ disqus_shortname:
 description: Jo De Freitas bespoke mosaic artist cape town
 
 # Author details for the jekyll-seo-tag gem
-author: Nomad Webworks
+author:
   name:
-  email: resident@hotmail.co.za
+  email:
   twitter: # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
