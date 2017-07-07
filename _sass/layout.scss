@@ -15,11 +15,18 @@
 
 header {
 	color: #fff;
+	z-index: 1;
+	background: $navigation-color;
 	padding: 20px 0;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+
+	img {
+		padding-top: 3px;
+		height: 40px;
+	}
 
 	a {
 		color: #fff;
@@ -34,6 +41,7 @@ header {
 
 	.company-name {
 		font-size: 1.7em;
+		color: black;
 	}
 }
 
@@ -41,6 +49,23 @@ header {
 	background: #fff;
 	padding: 1px 0 0 0;
 	position: relative;
+}
+
+.profile {
+	padding: 10px 50px 10px 20px;
+	img {
+		border-radius: 50%;
+		border: 1px solid black;
+	}
+	@media #{$mid-pointmax} {
+		padding: 0 0 60px 0;
+	}
+}
+
+.transparent {
+	background-color: rgba(255,255,255,.85);
+	border: 1px solid black;
+	border-radius: 15px;
 }
 
 .screenshot{
@@ -55,52 +80,77 @@ header {
 }
 
 section {
-	padding: 150px 0;
+	padding: 50px 0;
 	background: $brand-color;
 	margin-top: -2px;
-
-	&.diagonal {
-		-webkit-transform: skewY(-$section-rotation);
-		-moz-transform: skewY(-$section-rotation);
-		-ms-transform: skewY(-$section-rotation);
-		transform: skewY(-$section-rotation);
-
-		> div {
-			-webkit-transform: skewY($section-rotation);
-			-moz-transform: skewY($section-rotation);
-			-ms-transform: skewY($section-rotation);
-			transform: skewY($section-rotation);
-		}
-	}
+	border-top: black 2px solid;
 
 	&.hero {
 		color: #ffffff;
-		background: $brand-color;
+		background: url($hero-image);
+		background-size: cover;
 		text-align: left;
 		margin-top: -100px;
-		padding-top: 250px;
+		padding-top: 320px;
+		padding-bottom: 150px;
 
 		h2, p {
 			max-width: 90%;
+			color: black;
+			margin: auto;
 		}
 
 		h2 {
-			font-size: 3.5rem;
+			font-size: 3.5em;
+			color: black;
 		}
 
 		p {
 			font-size: 1.8rem;
-			color: #fff;
+			color: black;
+		}
+
+		h1 {
+			font-size: 25;
+			padding-left: 15px;
+			text-align: left;
 		}
 
 		a:not(.button) {
 			color: #ffffff;
 			font-style: italic;
 		}
+
+		img {
+			border-radius: 15px;
+		}
+
+		.inner-content {
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+
+		&.pages {
+			text-align: center;
+			.container {
+				max-width: 500px;
+			}
+			h2 {
+				margin: auto;
+				padding-top: 30px;
+			}
+			p {
+				margin: auto;
+				padding-bottom: 30px;
+			}
+		}
 	}
 
 	&.alternate {
-		background: #eee;
+		background: $secondary-brand-color;
+		p {
+			color: black;
+		}
 	}
 }
 
@@ -108,16 +158,16 @@ section {
 	padding: 13px 38px;
 	border-radius: 3px;
 	display: inline-block;
-	color: $brand-color;
+	color: navy;
 	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
-	border: 1px solid #fff;
+	border: 2px solid black;
 	background: #fff;
 	text-decoration: none !important;
 
 	&:hover {
-		background: rgba(255, 255, 255, 0.3);
+		background: rgba(#4869a7, 0.9);
 		color: #fff;
 	}
 
@@ -238,7 +288,7 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: rgb(175, 201, 216);
 
 	&,
 	p {

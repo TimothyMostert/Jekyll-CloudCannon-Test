@@ -4,7 +4,7 @@
       link: /
     - name: Portfolio
       link: /portfolio/
-    - name: Blog
+    - name: News
       link: /blog/
     - name: About
       link: /about/
@@ -13,7 +13,7 @@
 - title: Social
   links:
     - name: Facebook
-      link:
+      link: https://www.facebook.com/JosMosaic/
       social_icon: Facebook
       new_window: true
     - name: Twitter

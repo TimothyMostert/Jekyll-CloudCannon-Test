@@ -2,17 +2,20 @@
 ---
 
 $pattern: "{{ site.baseurl }}/images/pattern.png";
+$patternlight: "{{ site.baseurl }}/images/textured-background.jpeg";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
-$brand-color: black;
-$html-background-color: pink;
-$secondary-brand-color: yellow;
+$hero-image: "{{ site.baseurl }}/images/mosaicbackground.jpg";
+$brand-color: #799FCB;
+$html-background-color: #aee1e6;
+$secondary-brand-color: #b3ecec;
+$navigation-color: rgba(#4869a7, 0.94);
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
-$blingImage: "{{ site.baseurl }}/images/friendlyHelper.png";
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
 $mid-point: "(min-width: 620px)";
+$mid-pointmax: "(max-width: 620px)";
 $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
