@@ -1,6 +1,6 @@
 footer {
 	@extend section;
-	padding: 100px 0 50px 0;
+	padding: 50px 0 50px 0;
 	position: relative;
 	background: $navigation-color;
 	color: black;
@@ -12,7 +12,7 @@ footer {
 
 	h2 {
 		font-size: 1.4em;
-		margin: 30px 0;
+		margin: 15px 0;
 		color: #ccc;
 	}
 
@@ -32,7 +32,7 @@ footer {
 
 	.legal-line {
 		width: 100%;
-		padding: 30px 0 0 0;
+		padding: 15px 0 0 0;
 		margin: 0;
 
 		a {
@@ -49,7 +49,7 @@ footer {
 
 	li {
 		list-style: none;
-		margin: 15px 0;
+		margin: 5px 0;
 
 		a {
 			svg {

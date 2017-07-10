@@ -1,14 +1,16 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $patternlight: "{{ site.baseurl }}/images/textured-background.jpeg";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
-$hero-image: "{{ site.baseurl }}/images/mosaicbackgroundsmall.jpg";
-$brand-color: #799FCB;
+$hero-image: "{{ site.baseurl }}/images/hero.jpg";
+$brand-color: #85B8EB;
 $html-background-color: #aee1e6;
-$secondary-brand-color: #b3ecec;
+$secondary-brand-color: #c4f2e9;
 $navigation-color: rgba(#4869a7, 0.94);
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 

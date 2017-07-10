@@ -13,6 +13,10 @@
 	max-width: 1000px;
 }
 
+.border {
+	border: 5px solid #353943;
+}
+
 header {
 	color: #fff;
 	z-index: 1;
@@ -63,9 +67,11 @@ header {
 }
 
 .transparent {
-	background-color: rgba(255,255,255,.85);
-	border: 1px solid black;
-	border-radius: 15px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(124, 162, 184, 0.5);
+	//border-top: 1px solid black;
+	//border-bottom: 1px solid black;
 }
 
 .screenshot{
@@ -87,33 +93,43 @@ section {
 
 	&.hero {
 		color: #ffffff;
-		background: url($hero-image);
+		background: url($hero-image) no-repeat center center;
 		background-size: cover;
+		opacity: 0.9;
 		text-align: left;
 		margin-top: -100px;
 		padding-top: 320px;
 		padding-bottom: 150px;
+		border-bottom: black 2px solid;
 
 		h2, p {
 			max-width: 90%;
-			color: black;
+			color: rgb(1, 19, 50);
 			margin: auto;
 		}
 
 		h2 {
+			text-align: center;
+			font-family: 'Roboto', sans-serif;
 			font-size: 3.5em;
-			color: black;
+			font-weight: bold;
+			color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 		}
 
 		p {
-			font-size: 1.8rem;
-			color: black;
+			text-align: center;
+			font-size: 2em;
+			font-weight: bold;
+			font-family: cursive;
+			color:  white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 		}
 
 		h1 {
 			font-size: 25;
 			padding-left: 15px;
-			text-align: left;
+			text-align: center;
 		}
 
 		a:not(.button) {
@@ -209,6 +225,7 @@ section {
 	list-style: none;
 	display: flex;
 	flex-flow: wrap;
+	align-items: center;
 	text-align: center;
 	margin: 0 -20px;
 
@@ -234,6 +251,7 @@ section {
 
 		img {
 			min-width: 100%;
+			border: 2px solid black;
 		}
 
 		> a:hover {
