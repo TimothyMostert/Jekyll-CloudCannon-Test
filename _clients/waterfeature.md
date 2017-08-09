@@ -3,6 +3,18 @@ name: Water Feature Mosaic
 subtitle: example collections content
 external_url: https://github.com/CloudCannon/frisco-jekyll-template
 image_path: /images/waterfeature.jpg
+_options:
+  image_path:
+    width: 90
+    height: 120
+    resize_style: "contain"
+    mime_type: /images/waterfeature.jpg
+    expandable: true
+  content:
+    width: 90
+    height: 120
+    resize_style: "cover"
+    mime_type: "image/png"
 ---
 
 App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
